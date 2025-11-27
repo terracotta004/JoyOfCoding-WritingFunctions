@@ -30,3 +30,24 @@ returns their absolute difference:
 absolute_difference(5, 10)|5 
 absolute_difference(10, 5)|5 
 absolute_difference(200, -200)|400
+
+4. Write a function is_even that takes a number as a parameter and 
+returns whether or not it is even. Test that your function works by 
+calling it twice, once with an even number and once with an odd 
+number, and print the results. 
+
+5. Write a function calculate_total that takes 3 parameters: 
+
+a. `meal`: the cost of the meal 
+
+b. `tax_rate`: the percent tax (e.g., NJ tax would be 0.07) 
+
+c. `tip_rate`: the percent tip (e.g., a 20% tip rate is 0.20) 
+
+Proper tipping technique dictates that the tip should be calculated 
+based on the total cost of the meal, before tax is applied. Then, 
+return the total. Test your function  works by using the following call:  
+
+`calculate_total(53.48, .07, .18)` 
+
+Note that the total for the above meal with tax & tip is $66.85.
